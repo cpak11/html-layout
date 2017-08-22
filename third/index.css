@@ -1,0 +1,12 @@
+*{margin:0;padding:0;}
+#frame{position:relative;width:100%;height:100vh;}
+header,nav,.content-box,#one,#two,#three,#four{position:absolute;width:100%;left:0;}
+header{height:100px;background-color:silver;top:0;}
+nav{height:80px;width:80px;background-color:dodgerblue;top:10px;left:15px;}
+
+.content-box{height:250px;background-color:white;top:100px;}
+.content-box p{font-size:1.75rem;font-family:sans-serif;padding:50px;}
+#one{height:125px;background-color:dodgerblue;bottom:375px;}
+#two{height:125px;background-color:cadetblue;bottom:250px;}
+#three{height:125PX;background-color:yellowgreen;bottom:125px;}
+#four{height:125px;background-color:goldenrod;bottom:0;}
